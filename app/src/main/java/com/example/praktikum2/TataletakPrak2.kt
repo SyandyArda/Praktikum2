@@ -67,16 +67,16 @@ fun TataletakColumnRow(modifier: Modifier) {
         //Baris1
         Row(modifier = modifier.fillMaxWidth(),
             horizontalArrangement = Arrangement.SpaceEvenly) {
-            Text(text = "Komponen1Baris1")
-            Text(text = "Komponen2Baris1")
-            Text(text = "Komponen3Baris1")
+            Text(text = "Nama:")
+            Text(text = "NIM:")
+            Text(text = "Angkatan:")
         }
         //Baris2
         Row(modifier = modifier.fillMaxWidth(),
-            horizontalArrangement = Arrangement.Start) {
-            Text(text = "Komponen1Baris2")
-            Text(text = "Komponen2Baris2")
-            Text(text = "Komponen3Baris2")
+            horizontalArrangement = Arrangement.SpaceEvenly) {
+            Text(text = "Syandy Arda")
+            Text(text = "20230140148")
+            Text(text = "2023")
         }
     }
 }
@@ -86,16 +86,16 @@ fun TataletakRowColumn(modifier: Modifier) {
     Row(modifier = modifier.fillMaxWidth(), horizontalArrangement = Arrangement.SpaceEvenly) {
         //Kolom1
         Column() {
-            Text(text = "Komponen1Kolom1")
-            Text(text = "Komponen2Kolom1")
-            Text(text = "Komponen3Kolom1")
+            Text(text = "Nama:")
+            Text(text = "NIM:")
+            Text(text = "Angkatan:")
         }
 
         //Kolom2
         Column() {
-            Text(text = "Komponen1Kolom2")
-            Text(text = "Komponen2Kolom2")
-            Text(text = "Komponen3Kolom2")
+            Text(text = "Syandy Arda")
+            Text(text = "20230140148")
+            Text(text = "2023")
         }
     }
 }
