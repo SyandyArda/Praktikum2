@@ -21,7 +21,7 @@ class MainActivity : ComponentActivity() {
             Praktikum2Theme {
                 Scaffold(modifier = Modifier.fillMaxSize()) { innerPadding ->
 
-                        TataletakBoxColumnRow(
+                        TataletakBox(
                         modifier = Modifier.padding(innerPadding)
                     )
                 }
